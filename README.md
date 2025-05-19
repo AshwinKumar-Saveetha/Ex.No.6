@@ -94,7 +94,11 @@ if __name__ == "__main__":
 
 ---
 
-## **Sample Output:**
+## **Input Prompt:**
+
+"Write a Python program that fetches simulated warehouse robot alert data, uses Hugging Face Transformers to analyze sentiment for each alert, and uses OpenAI GPT (via API) to summarize the alerts. Based on sentiment and operational status, generate maintenance recommendations. The output should display individual alerts with sentiment scores, a summary of events, and a final recommendation. Use a modular structure with clearly defined functions for data fetching, sentiment analysis, OpenAI summarization, and insight generation."
+
+## **Output:**
 ```
 === Warehouse AI Report ===
 Collision alert in Aisle B3 (NEGATIVE 0.97)
